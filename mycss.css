@@ -24,6 +24,12 @@
       font-size: 26px;
       font-weight:bold;
     }
+    #myRet{
+      font-size: 12px;
+      font-weight:bold;
+      color: red;
+      text-align: center;
+    }
     .myitems{
       font-size: 26px;
       font-weight:bold;
