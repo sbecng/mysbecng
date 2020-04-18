@@ -23,6 +23,8 @@
     #myOlist {
       font-size: 26px;
       font-weight:bold;
+      color: red;
+      text-align: center;
     }
     #myRet{
       font-size: 12px;
