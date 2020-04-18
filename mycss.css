@@ -30,5 +30,11 @@
       color: magenta;
       text-align: center;
     }
+    .myheader{
+      font-size: 35px;
+      font-weight:bold;
+      color: blue;
+      text-align: center;
+    }
   </style>
 </html>
