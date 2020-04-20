@@ -6,7 +6,7 @@
         text-align: center;
     }
     table{
-      align: center;
+      float: right;
       width: 80%;
     }
     table,th,td {
@@ -32,6 +32,7 @@
     }
     ol{
       text-align: center;
+      float: right;
     }
     .myRet{
       font-size: 12px;
