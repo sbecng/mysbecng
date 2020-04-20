@@ -8,8 +8,8 @@
     table,th,td {
             border: 5px solid blue;
             border-collapse:collapse;
-            width: 70%;
             text-align: center;
+            margin:30px;
     }
     td,th {
         height:50px;
