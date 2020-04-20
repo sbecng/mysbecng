@@ -6,8 +6,8 @@
         text-align: center;
     }
     table{
-      align-items: center;
-      width: 50%;
+      align: center;
+      width: 80%;
     }
     table,th,td {
             border: 5px solid blue;
@@ -31,7 +31,7 @@
       text-align: center;
     }
     ol{
-      align-items: center;
+      text-align: center;
     }
     .myRet{
       font-size: 12px;
