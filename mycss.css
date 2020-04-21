@@ -2,9 +2,9 @@
 <html>
   <style>
     table{
-      width:100%;
+      width:80%;
       border:10px;
-      margin:25%
+      margin-left: 25%
     }
     th,td {
             border: 5px solid blue;
