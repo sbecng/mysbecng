@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html>
   <style>
-    h1 {
-        color: red;
-        text-align: center;
-    }
     table{
-      margin-left: 10%;
-      width: 80%;
+      margin-left:10%;
+      width:80%;
     }
     table,th,td {
             border: 5px solid blue;
@@ -51,6 +47,8 @@
     .myheader{
       font-size: 35px;
       font-weight:bold;
+      color: red;
+      text-align: center;
     }
   </style>
 </html>
