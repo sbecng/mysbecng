@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html>
   <style>
+    @@media(min-width:700px) {
+      background-color: gray;
+    }
+    @@media(max-width:850px) {
+      background-color: peach;
+    }
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     table{
-      width:80%;
+      width:10px;
       border:10px;
       margin-left: 25%
     }
@@ -45,6 +52,7 @@
       font-size: 26px;
       font-weight:bold;
       color: magenta;
+      background-color: gray;
     }
     .myheader{
       font-size: 35px;
