@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
   <style>
+    *{
+      box-sizing: border-box;
+    }
+    html {
+      font-family: "Lucida Sans", sans-serif;
+    }
     @@media(min-width:700px) {
       background-color: gray;
     }
     @@media(max-width:850px) {
       background-color: peach;
     }
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     table{
-      width:10px;
+      width:50%;
       border:10px;
       margin-left: 25%
     }
@@ -29,6 +34,11 @@
       vertical-align: middle;
       padding:15px;
     }
+    h1{
+      background-color: purple;
+      color: white;
+      padding: 15px
+    }
     img{
       position: absolute;
       margin: 5%
@@ -42,22 +52,29 @@
     ol{
       margin-left:25%
     }
+    .myitems li{
+      width:50%;
+      font-size: 26px;
+      font-weight:bold;
+      color: purple;
+      content: "";
+      clear: both;
+      display: table;
+      margin-bottom: 7px;
+      background-color: springgreen;
+      padding: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
     .myRet{
       font-size: 16px;
       font-weight:bold;
       color: red;
+      padding: 15px;
       text-align: center;
-    }
-    .myitems{
-      font-size: 26px;
-      font-weight:bold;
-      color: magenta;
-      background-color: gray;
     }
     .myheader{
       font-size: 35px;
       font-weight:bold;
-      color: red;
       text-align: center;
     }
   </style>
