@@ -53,6 +53,7 @@
       margin-left:25%
     }
     .myitems li{
+      float: left;
       width:50%;
       font-size: 26px;
       font-weight:bold;
