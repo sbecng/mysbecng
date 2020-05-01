@@ -5,43 +5,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Investments</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-        <style>
-          body{
-            margin: 20px;
-          }
-          .mybord{
-            border: 2px red;
-          }
-          .myrow{
-            border-color: 2px purple;
-          }
-          .mycol3{
-            margin: 5px;
-            border: 10px black;
-            background-color: springgreen;
-          }
-        </style>
     </head>
     <body>
-      <h1>Investments Options</h1
-      <div class="container mybord">
+      <div class="container mycon">
         <div class="row myrow">
-          <div class="col mycol3">
-            <p>Banking Stocks</p>
+          <div class="col-3 mycol">
+            <h1>How much do you have to invest now?</h1>
           </div>
-          <div class="col mycol3">
-            <p>Money Market Instruments</p>
-          </div>
-          <div class="col mycol3">
-            <p>Agricultural Products</p>
-          </div>
-          <div class="col mycol3">
-            <p>Real Estates</p>
+          <div class="col-9 mycol">
+            <input amount="amount" type "number" placeholder="investment amount">
           </div>
         </div>
-    </div>
-      <div class="MyPix">
-        <img src="Appraisee - data collection.jpg" alt="Flowers in China">
+        <div class="row myrow">
+          <div class="col mycol">
+            <h1>For how long do you want to invest?</h1>
+          </div>
+          <div class="col mycol">
+            <input time="time" type "integer" placeholder="investment period">
+          </div>
+        </div>
       </div>
     </body>
 </html>
